@@ -1,0 +1,4 @@
+results/
+*.qza
+*.qzv
+__pycache__/
