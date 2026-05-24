@@ -1,4 +1,4 @@
-This project is a simple automated microbiome analysis pipeline developed using Python and QIIME2. The pipeline performs major 16S rRNA analysis steps including sequence import, DADA2 denoising, feature table generation, phylogenetic tree construction, diversity analysis, taxonomy classification, taxa visualization, and ANCOM-BC preparation.
+This project is a simple automated microbiome analysis pipeline developed using Python and QIIME2. The pipeline performs major 16S rRNA analysis steps including sequence import, DADA2 denoising, feature table generation, phylogenetic tree construction, diversity analysis, taxonomy classification, taxa visualization, and ANCOM-BC.
 
 The workflow is divided into separate Python scripts for better organization. The main script, run_pipeline.py, executes the complete pipeline automatically. Other scripts handle specific tasks such as data import, denoising, summarization, phylogeny generation, diversity analysis, taxonomy assignment, and ANCOM-BC export preparation.
 
