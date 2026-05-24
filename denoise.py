@@ -5,6 +5,8 @@ def run_dada2():
 
     print("Running DADA2...\n")
 
+    os.makedirs("results", exist_ok=True)
+
     subprocess.run("""
     qiime dada2 denoise-paired \
     --i-demultiplexed-seqs results/demux.qza \
