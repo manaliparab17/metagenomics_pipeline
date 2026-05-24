@@ -5,6 +5,8 @@ def taxonomy_analysis():
 
     print("Running taxonomy classification...\n")
 
+    os.makedirs("results", exist_ok=True)
+
     subprocess.run("""
     qiime feature-classifier classify-sklearn \
     --i-classifier silva-138.qza \
