@@ -5,6 +5,8 @@ def generate_tree():
 
     print("Generating phylogenetic tree...\n")
 
+    os.makedirs("results", exist_ok=True)
+
     subprocess.run("""
     qiime phylogeny align-to-tree-mafft-fasttree \
     --i-sequences results/rep-seqs.qza \
