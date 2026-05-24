@@ -5,6 +5,8 @@ def diversity_analysis():
 
     print("Running diversity analysis...\n")
 
+    os.makedirs("results", exist_ok=True)
+
     subprocess.run("""
     qiime diversity core-metrics-phylogenetic \
     --i-phylogeny results/rooted-tree.qza \
