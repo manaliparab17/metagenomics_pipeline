@@ -11,4 +11,4 @@ The complete workflow can be executed using:
 
 python run_pipeline.py
 
-All generated outputs are stored inside the results/ folder, including feature tables, representative sequences, taxonomy assignments, phylogenetic trees, and visualization files (.qzv).
+All generated outputs are stored inside the results/ folder, including feature tables, taxonomy assignments, phylogenetic trees, and visualization files (.qzv).
