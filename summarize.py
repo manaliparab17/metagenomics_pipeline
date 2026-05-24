@@ -5,6 +5,8 @@ def summarize_data():
 
     print("Generating summaries...\n")
 
+    os.makedirs("results", exist_ok=True)
+
     subprocess.run("""
     qiime feature-table summarize \
     --i-table results/table.qza \
