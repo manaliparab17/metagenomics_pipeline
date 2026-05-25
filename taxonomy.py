@@ -9,7 +9,7 @@ def taxonomy_analysis():
 
     subprocess.run("""
     qiime feature-classifier classify-sklearn \
-    --i-classifier silva-138.qza \
+    --i-classifier silva-138-classifier.qza
     --i-reads results/rep-seqs.qza \
     --o-classification results/taxonomy.qza
     """, shell=True)
